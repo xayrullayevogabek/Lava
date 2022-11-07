@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-bottom: 40px;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    width: 100vw;
+    height: 50px;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 5px 24px -1px rgba(34, 60, 80, 0.58);
+    -moz-box-shadow: 0px 5px 24px -1px rgba(34, 60, 80, 0.58);
+    box-shadow: 0px 5px 24px -1px rgba(34, 60, 80, 0.58);
+}
+nav h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 33px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: gray;
+    font-family: poppins,sans-serif;
+    transition: .5s;
+}
+nav ul li a:hover{
+    color: orange;
+}
+select{
+    margin-right: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-family: poppins,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+select:hover{
+    color: orange;
+}
+/* nav section end */
+
+/* aside section */
+.aside{
+    display: flex;
+    margin-top: 160px;
+    width: 100vw;
+    padding-left:222px;
+}
+.aside .left{
+    width: 50%;
+    text-align: start;
+}
+span{
+    color: orange;
+}
+.aside .left h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.but{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    padding: 7px;
+    background:linear-gradient( to right,orange,rgb(255, 94, 0)) ;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.but:hover{
+    transform: scale(1.1);
+    background:linear-gradient( to right,rgb(255, 94, 0),orange) ;
+}
+.image{
+    margin-left: 100px;
+    margin-top:-30px;
+    width: 350px;
+    height: 460px;
+    object-fit: cover;
+    transition: .7s;
+    cursor: pointer;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+/* aside section end */
+
+/* card section */
+
+.card-container{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+    width: 330px;
+    height: 350px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+    margin:0 15px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.card i{
+    font-size: 60px;
+    color:rgb(255, 94, 0) ;
+}
+.card h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+.card p{
+    font-family: poppins,sans-serif;
+    color: gray;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.but2{
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    padding: 10 0px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    cursor: pointer;
+    transition: .7s;
+}
+.but2:hover{
+    transform: rotate(10deg);
+}
+/* cards style end */
+
+/* aside2 section style */
+.aside2-container{
+    display: flex;
+}
+.right2{
+    margin-top: 100px;
+}
+.card2{
+    display: flex;
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.card2 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card2 p{
+    font-family: poppins,sans-serif;
+    color: gray;
+    margin-top: 10px;
+}
+.card2 i{
+    font-size: 100px;
+    cursor: pointer;
+    color:rgb(255, 94, 0) ;
+    margin-right: 30px;
+}
+.image2{
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: white;
+}
+/* aside 2 section end */
+.text2{
+    width: 800px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.text2 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text2 p{
+    margin-top: 10px;
+    font-family: poppins,sans-serif;
+    color: gray;
+}
+
+/* Card3 section */
+.card3-container{
+    display: flex;
+    width: 100vw;
+    margin-top: 100px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.card3{
+    position: relative;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    padding: 50px;
+    margin-right: 100px;
+    background-color:rgb(255, 94, 0) ;
+}
+.card3 img{
+    position: absolute;
+    top: -20%;
+    left: -15%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card3 i{
+    color: white;
+}
+.card3 h2{
+    margin-top: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card3 p{
+    margin-top: 20px;
+    color: white;
+    font-family: poppins,sans-serif;
+}
+/* card 3 section end */
+
+/* footer section */
+.footer{
+    display: flex;
+    width: 100vw;
+    margin-top: 100px;
+}
+.right4{
+    margin-left: 60px;
+    width: 500px;
+}
+.right4 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+.right4 p{
+    font-family: poppins,sans-serif;
+}
+.right4 i{
+    margin-top: 10px;
+    font-size: 27px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    transition: .5s;
+}
+.right4 i:hover{
+    background-color: black;
+    color: white;
+}
+.left4{
+    width: 50%;
+}
+form{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 300px;
+    
+}
+.left4 form input{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+}
+form button{
+    margin-top: 30px;
+    width: 150px;
+    padding: 7px;
+    background-color:rgb(255, 94, 0) ;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
